@@ -1,0 +1,35 @@
+﻿<Window x:Class="IlkUygulamam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IlkUygulamam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock></TextBlock>
+        <Button>Selam</Button>
+        <Button>Naber</Button>
+        <Button Content="Hi" Width="100" Height="50" Foreground="Blue"/>
+        <Button>
+            <Button.Foreground>
+                Red
+            </Button.Foreground>
+            <Button.Content>
+                Hello
+            </Button.Content>
+            <Button.Width>
+                100
+            </Button.Width>
+            <Button.Height>
+                50
+            </Button.Height>
+        </Button>
+        <Button>
+            <Button.Content>
+                <Rectangle Height="30" Width="19" Fill="Black"/>
+            </Button.Content>
+        </Button>
+    </StackPanel>
+
+</Window>

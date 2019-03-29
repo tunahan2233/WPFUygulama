@@ -1,0 +1,15 @@
+﻿<Window x:Class="UygulamadakiYapiyaErismek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mylabel="clr-namespace:UygulamadakiYapiyaErismek"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<mylabel:Ogrenci x:Name="ogrencim" OgrenciAdi="Mustafa" OgrenciOrtalama="10"/>-->
+
+    <StackPanel>
+        <mylabel:Dugme x:Name="dugme" Height="100"/>
+        <mylabel:Dugme x:Name="dugme2" Height="100"/>
+    </StackPanel>
+</Window>

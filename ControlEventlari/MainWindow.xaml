@@ -1,0 +1,26 @@
+﻿<Window x:Class="ControlEventlari.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlEventlari"
+        mc:Ignorable="d"
+        Title="Merhaba WPF" Height="450" Width="800">
+    <!--<local:Ogrenci x:Name="ogrenci" OgrenciAdi="Mustafa" OgrenciOrtalama="10">
+        
+    </local:Ogrenci>-->
+    
+    <Grid>
+        <Button
+            Content="Tıkla" 
+            Width="100" 
+            Height="100"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            HorizontalContentAlignment="Right"
+            Click="Button_Click"
+            />
+     
+    
+    </Grid>
+</Window>
